@@ -1,4 +1,4 @@
-import puppeteer from "puppeteer";
+import { chromium } from "playwright";
 
 let page: any;
 let browser: any;
@@ -6,8 +6,8 @@ let browser: any;
 describe("Sandbox", () => {
   beforeAll(async () => {
     browser = process.env.GITHUB_ACTIONS
-      ? await puppeteer.launch()
-      : await puppeteer.launch({ headless: false });
+      ? await chromium.launch()
+      : await chromium.launch({ headless: false });
     page = await browser.newPage();
 
     await page

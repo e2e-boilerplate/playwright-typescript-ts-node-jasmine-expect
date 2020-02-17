@@ -9,13 +9,14 @@
   },
   "keywords": [
     "playwright",
-    "es6 modules",
+    "es6",
     "typescript",
     "tsnode",
     "jasmine",
     "boilerplate",
     "example",
-    "e2e"
+    "e2e",
+    "e2e test"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",

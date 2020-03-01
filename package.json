@@ -5,7 +5,7 @@
     "@types/is-ci": "2.0.0",
     "@types/jasmine": "3.5.7",
     "@types/node": "12.12.29",
-    "eslint-plugin-json": "^2.1.0",
+    "eslint-plugin-json": "2.1.0",
     "husky": "3.1.0",
     "jasmine": "3.5.0",
     "lint-staged": "10.0.8",

@@ -1,29 +1,11 @@
 {
-  "name": "playwright-typescript-ts-node-jasmine-expect",
-  "version": "1.0.0",
-  "description": "Playwright end-to-end test automation boilerplate, using ES6 Modules, TypeScript, Jasmine and Expect.",
-  "scripts": {
-    "pretty": "prettier --no-config './spec/*.ts' --write",
-    "lint": "tslint -c tslint.json './spec/*.ts'",
-    "test": "npx jasmine"
-  },
-  "keywords": [
-    "playwright",
-    "es6",
-    "typescript",
-    "tsnode",
-    "jasmine",
-    "boilerplate",
-    "example",
-    "e2e",
-    "e2e test"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "description": "Playwright end-to-end test automation boilerplate, using ES6 Modules, TypeScript, Jasmine and Expect.",
   "devDependencies": {
     "@types/is-ci": "2.0.0",
     "@types/jasmine": "3.5.6",
     "@types/node": "12.12.28",
+    "eslint-plugin-json": "^2.1.0",
     "husky": "3.1.0",
     "jasmine": "3.5.0",
     "lint-staged": "10.0.7",
@@ -34,15 +16,39 @@
     "tslint-plugin-prettier": "2.1.0",
     "typescript": "3.8.2"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
+    "expect",
+    "integration test",
+    "jasmine",
+    "playwright",
+    "ts-node",
+    "typescript"
+  ],
+  "license": "MIT",
   "lint-staged": {
     "*.{ts,js,css,json,md}": [
       "prettier --write",
       "git add"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  }
+  "name": "playwright-typescript-ts-node-jasmine-expect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/playwright-typescript-ts-node-jasmine-expect.git"
+  },
+  "scripts": {
+    "pretty": "prettier --no-config './spec/*.ts' --write",
+    "lint": "tslint -c tslint.json './spec/*.ts'",
+    "test": "npx jasmine"
+  },
+  "version": "1.0.0"
 }

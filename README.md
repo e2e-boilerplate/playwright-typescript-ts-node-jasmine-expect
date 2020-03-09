@@ -6,7 +6,7 @@ Playwright end-to-end test automation boilerplate, using TypeScript, ts-node, Ja
 
 ## Getting Started
 
-git clone git@github.com:e2e-boilerplate/playwright-typescript-ts-node-jasmine-expect.git
-cd playwright-typescript-ts-node-jasmine-expect
-npm install
-npm run test
+    	git clone git@github.com:e2e-boilerplate/playwright-typescript-ts-node-jasmine-expect.git
+    	cd playwright-typescript-ts-node-jasmine-expect
+    	npm install
+    	npm run test

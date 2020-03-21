@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
     "strict": true,
     "moduleResolution": "node",
-    "typeRoots": ["node_modules/@types"],
-    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "types": [
+      "node",
+      "jasmine"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
     "outDir": "build",
-    "types": ["node", "jasmine", "puppeteer"]
+    "target": "es5"
   }
 }

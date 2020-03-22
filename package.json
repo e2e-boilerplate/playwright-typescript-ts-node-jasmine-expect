@@ -14,9 +14,9 @@
     "playwright": "0.11.1",
     "prettier": "1.19.1",
     "ts-node": "8.7.0",
-    "tslint": "^6.1.0",
-    "tslint-config-prettier": "^1.18.0",
-    "tslint-plugin-prettier": "^2.2.0",
+    "tslint": "6.1.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.2.0",
     "typescript": "3.8.3"
   },
   "homepage": "https://github.com/e2e-boilerplate/playwright-typescript-ts-node-jasmine-expect#readme",

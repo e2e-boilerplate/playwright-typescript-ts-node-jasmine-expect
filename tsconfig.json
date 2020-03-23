@@ -3,14 +3,10 @@
     "strict": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "types": [
-      "node",
-      "jasmine"
-    ],
-    "typeRoots": [
-      "node_modules/@types"
-    ],
+    "types": ["node", "jasmine"],
+    "typeRoots": ["node_modules/@types"],
     "outDir": "build",
+    "allowSyntheticDefaultImports": true,
     "target": "es5"
   }
 }

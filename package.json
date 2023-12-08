@@ -7,7 +7,7 @@
     "chromedriver": "90.0.1",
     "jasmine": "3.99.0",
     "playwright": "1.25.2",
-    "ts-node": "9.1.1",
+    "ts-node": "10.9.2",
     "typescript": "4.9.3"
   },
   "description": "Playwright end-to-end test automation boilerplate. Using TypeScript, ts-node, Jasmine and Expect.",
